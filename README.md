@@ -1,4 +1,5 @@
 # Student Registration System
+# you can check the pdf file for actual input output interaction
 
 This project is developed by Abdurhman Mamdouh and Abdulmalik Mhammeden as part of a CS 102 course. It is a simple, command-line-based Student Registration System that allows students, advisors, and administrators to interact with various functionalities such as registering for courses, viewing schedules, and managing course information.
 
