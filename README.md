@@ -47,5 +47,115 @@ This project is a Course Registration System that allows students, advisors, and
 ### How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CourseRegistrationSystem.git
+
+    ```bash
+    git clone https://github.com/yourusername/CourseRegistrationSystem.git
+    ```
+
+2. Navigate to the project folder:
+
+    ```bash
+    cd CourseRegistrationSystem
+    ```
+
+3. Compile and run the Java program:
+
+    ```bash
+    javac Main.java
+    java Main
+    ```
+
+---
+
+### Usage Guide
+
+Upon running the program, users will see the main menu:
+
+Start Page_ "Enter a number" 1 for Student 2 for Advisor 3 for Administrators 4 for exit Enter number (1,2,3,4):
+Code
+
+#### 🎓 Student Portal
+
+To enter as a student, type 1.  
+Example:
+
+Enter number(1,2,3,4): 1 Enter your ID (0 to exit): 789 Enter your password: Jkl@123
+Code
+
+Available Student Options:
+
+1. View Available Courses  
+2. Register for Courses  
+3. View Registered Courses  
+4. Drop a Course  
+5. View All Validated Courses  
+6. View Schedule  
+7. Update Personal Information  
+8. Submit Special Registration Requests  
+9. List All Prerequisite Courses  
+10. Exit  
+
+#### 📚 Course Management (Administrator)
+
+To enter as an administrator, type 3.  
+Example:
+
+Administrator Page
+
+    Manage Courses
+    Manage Users
+    View System Statistics
+    Exit
+
+Code
+
+Managing Courses:
+
+1. Add New Courses  
+2. Remove Existing Courses  
+3. Update Existing Courses  
+4. Exit  
+
+Adding a Course Example:
+
+Enter course code: Eng107
+Enter course name: English research
+Enter course description: Develop ideas
+Enter course instructor: Ahmed
+Enter available seats: 20
+Enter course schedule:
+(Enter Course days one by one, type '0' to stop)
+sunday
+monday
+0
+Enter the course time: 8:00-9:00
+Enter prerequisites (separated by ":") : Eng101
+Enter course credits: 4
+Code
+
+---
+
+### Project Structure
+
+CourseRegistrationSystem/ │-- src/ # Source code directory │ │-- Main.java # Main application entry point │ │-- Student.java # Student class │ │-- Advisor.java # Advisor class │ │-- Admin.java # Administrator class │ │-- Course.java # Course class │-- data/ # Stores persistent data │-- README.md # Documentation
+Code
+
+### Data Persistence
+
+- Data is stored in files to ensure consistency across sessions.
+- At the start of the session, data is loaded from files.
+- Changes made by users are saved when they exit.
+
+### Submission Information
+
+- Deadline: May 9, 2024
+- Plagiarism Policy: A similarity above 35% results in a zero.
+
+### License
+
+This project is for academic use only.
+
+---
+
+This README.md follows best practices for documentation and makes it easy to understand for anyone visiting your GitHub repository. Let me know if you need changes! 🚀
+
