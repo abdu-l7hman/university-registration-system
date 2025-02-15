@@ -1,144 +1,92 @@
-# Course Registration System
+# Student Registration System
 
-## CS 102 Project
+This project is developed by Abdurhman Mamdouh and Abdulmalik Mhammeden as part of a CS 102 course. It is a simple, command-line-based Student Registration System that allows students, advisors, and administrators to interact with various functionalities such as registering for courses, viewing schedules, and managing course information.
 
-### Project Description
+## Table of Contents
 
-This project is a Course Registration System that allows students, advisors, and administrators to interact with the system based on their roles.
+- [Project Overview](#project-overview)
+- [Features](#features)
+  - [Student Features](#student-features)
+  - [Advisor Features](#advisor-features)
+  - [Administrator Features](#administrator-features)
+- [How to Run](#how-to-run)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+- [License](#license)
 
-- **Students** can register for courses, view schedules, drop courses, update personal information, and request special registrations.
-- **Advisors** can approve or deny special registration requests.
-- **Administrators** can manage courses, users, and view system statistics.
+## Project Overview
 
----
+The Student Registration System enables users (students, advisors, and administrators) to perform specific tasks related to course registration. Each user has a role, and the system provides an interactive interface that allows each user to:
 
-### Contributors
+- **Students**: View courses, register and drop courses, view schedules, update personal information, and more.
+- **Advisors**: Review and approve special registration requests from students.
+- **Administrators**: Add, remove, and update courses in the system.
 
-👨‍💻 Abdurhman Mamdouhe  
-👨‍💻 Abdulmalik Mhammeden
+## Features
 
----
+### Student Features
 
-### Features
+Once logged in, a student can access the following options:
 
-#### ✅ For Students:
+- **View Available Courses**: Displays a list of available courses with details such as course code, name, instructor, available seats, schedule, prerequisites, and credit hours.
+- **Register for Courses**: Allows students to register for courses by entering the course code. It ensures that the student does not register for a course they have already taken or lack the required prerequisites.
+- **View Registered Courses**: Displays the details of courses the student is already registered for.
+- **Drop Course**: Allows students to drop a course they are currently registered for.
+- **View All Validated Courses**: Displays a list of courses that have been validated and approved.
+- **View Schedule**: Shows a visual schedule for the student to see their weekly course timetable.
+- **Update Personal Information**: Students can update their name and password.
+- **Submit Special Registration Requests**: Allows students to send a request for special registration (e.g., adding a course).
+- **List Prerequisite Courses**: Displays the prerequisites for a given course.
 
-- View available courses.
-- Register for courses (ensuring prerequisites and schedule compatibility).
-- Drop registered courses.
-- View all validated courses and prerequisites.
-- View personal schedule.
-- Update personal information.
-- Submit and receive feedback for special registration requests.
+### Advisor Features
 
-#### ✅ For Advisors:
+Advisors can:
 
-- View registered students and their courses.
-- Approve/Deny special course registration requests.
+- Approve or reject special registration requests from students.
 
-#### ✅ For Administrators:
+### Administrator Features
 
-- **Manage Courses:** Add, remove, and update courses.
-- **Manage Users:** Add or remove students and advisors.
-- **View System Statistics:** Total courses, students, and system usage details.
+Administrators can manage courses through these options:
 
----
+- **Add New Courses**: Administrators can add new courses to the system.
+- **Remove Existing Courses**: Allows administrators to delete courses from the system.
+- **Update Existing Courses**: Administrators can modify details of existing courses in the system.
+- **Manage Users**: Administrators can manage student and advisor data.
+- **View System Statistics**: View basic system statistics (not detailed in the project description).
 
-### How to Run
+## How to Run
 
-1. Clone the repository:
-
+1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/CourseRegistrationSystem.git
+    git clone https://github.com/username/repository-name.git
     ```
 
-2. Navigate to the project folder:
-
+2. Navigate into the project directory:
     ```bash
-    cd CourseRegistrationSystem
+    cd repository-name
     ```
 
-3. Compile and run the Java program:
-
+3. Compile and run the program (assuming you are using Java or another programming language):
     ```bash
     javac Main.java
     java Main
     ```
 
----
+4. Follow the on-screen instructions to interact with the system based on your user type (Student, Advisor, or Administrator).
 
-### Usage Guide
+## Technologies Used
 
-Upon running the program, users will see the main menu:
+- **Programming Language**: Java (or other languages if applicable)
+- **Text-based Interface**: Command-line interface (CLI)
+- **Database**: No database integration in this version (information is stored in memory)
 
-Start Page_ "Enter a number" 1 for Student 2 for Advisor 3 for Administrators 4 for exit Enter number (1,2,3,4):
-Code
+## Contributors
 
-#### 🎓 Student Portal
+- Abdurhman Mamdouh
+- Abdulmalik Mhammeden
 
-To enter as a student, type 1.  
-Example:
+## License
 
-Enter number(1,2,3,4): 1 Enter your ID (0 to exit): 789 Enter your password: Jkl@123
-Code
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Available Student Options:
-
-1. View Available Courses  
-2. Register for Courses  
-3. View Registered Courses  
-4. Drop a Course  
-5. View All Validated Courses  
-6. View Schedule  
-7. Update Personal Information  
-8. Submit Special Registration Requests  
-9. List All Prerequisite Courses  
-10. Exit  
-
-#### 📚 Course Management (Administrator)
-
-To enter as an administrator, type 3.  
-Example:
-
-Administrator Page
-
-    Manage Courses
-    Manage Users
-    View System Statistics
-    Exit
-
-Code
-
-Managing Courses:
-
-1. Add New Courses  
-2. Remove Existing Courses  
-3. Update Existing Courses  
-4. Exit  
-
-Adding a Course Example:
-
-Enter course code: Eng107
-Enter course name: English research
-Enter course description: Develop ideas
-Enter course instructor: Ahmed
-Enter available seats: 20
-Enter course schedule:
-(Enter Course days one by one, type '0' to stop)
-sunday
-monday
-0
-Enter the course time: 8:00-9:00
-Enter prerequisites (separated by ":") : Eng101
-Enter course credits: 4
-Code
-
-### Data Persistence
-
-- Data is stored in files to ensure consistency across sessions.
-- At the start of the session, data is loaded from files.
-- Changes made by users are saved when they exit.
-
-### License
-
-This project is for academic use only.
+Feel free to customize the file based on your actual project structure and any specific instructions for running or using the project!
