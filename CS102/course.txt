@@ -1,0 +1,7 @@
+Eng107::English rhetoric::master persuasive techniques::Oliver Seahorse::84::12:00-1:00::wednesday:sunday:monday::Eng105:Eng034::4
+Eng108::English linguistics::explore language variation::Lily Jellyfish::2::8:00-9:00::thursday::Eng106:Eng035::2
+Eng109::English::descriptev::Khalid::9::9:00-10:00::wednesday::pds101:pds102::3
+PHSF112::Human structure and function::Anatomy and phisyology::Saabia qazi::60::9:00-10:00::sunday:monday:tuesday::PHSF101::4
+Eng103::English grammar::study language structure::Emma Octopus::5::11:00-12:00::wednesday:thursday:monday::Eng104:Eng033::3
+Eng104::English literature::analyze literary works::Sandra Dolphin::2::9:00-10:00::wednesday:thursday:sunday::Eng102:Eng031::4
+Eng105::English composition::practice writing skills::Michael Whale::4::10:00-11:00::sunday:monday:tuesday::Eng103:Eng032::2
