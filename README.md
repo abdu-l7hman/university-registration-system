@@ -133,29 +133,12 @@ Enter prerequisites (separated by ":") : Eng101
 Enter course credits: 4
 Code
 
----
-
-### Project Structure
-
-CourseRegistrationSystem/ │-- src/ # Source code directory │ │-- Main.java # Main application entry point │ │-- Student.java # Student class │ │-- Advisor.java # Advisor class │ │-- Admin.java # Administrator class │ │-- Course.java # Course class │-- data/ # Stores persistent data │-- README.md # Documentation
-Code
-
 ### Data Persistence
 
 - Data is stored in files to ensure consistency across sessions.
 - At the start of the session, data is loaded from files.
 - Changes made by users are saved when they exit.
 
-### Submission Information
-
-- Deadline: May 9, 2024
-- Plagiarism Policy: A similarity above 35% results in a zero.
-
 ### License
 
 This project is for academic use only.
-
----
-
-This README.md follows best practices for documentation and makes it easy to understand for anyone visiting your GitHub repository. Let me know if you need changes! 🚀
-
